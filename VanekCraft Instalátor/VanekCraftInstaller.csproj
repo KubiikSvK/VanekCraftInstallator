@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>VanekCraftInstaller</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\bg.jpg" />
+    <None Remove="Assets\Fonts\MinecraftEvenings.ttf" />
+    <None Remove="Assets\Fonts\Ubuntu-BoldItalic.ttf" />
+    <None Remove="Assets\Fonts\Ubuntu-Regular.ttf" />
+    <None Remove="Assets\Fonts\UbuntuMono-Regular.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\bg.jpg" />
+    <Resource Include="Assets\splash.png" />
+    <Resource Include="Assets\Fonts\MinecraftEvenings.ttf" />
+    <Resource Include="Assets\Fonts\Ubuntu-BoldItalic.ttf" />
+    <Resource Include="Assets\Fonts\Ubuntu-Regular.ttf" />
+    <Resource Include="Assets\Fonts\UbuntuMono-Regular.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Controls\CleanupControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Controls\FabricControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Controls\FinishControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Controls\InstallControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Controls\JavaCheckControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Controls\LauncherSelectControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>

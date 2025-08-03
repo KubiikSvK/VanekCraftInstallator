@@ -1,0 +1,7 @@
+<UserControl x:Class="VanekCraftInstaller.Controls.CleanupControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock Text="Čištění" FontSize="24" Foreground="White" TextAlignment="Center"/>
+    </StackPanel>
+</UserControl>

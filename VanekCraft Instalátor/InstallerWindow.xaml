@@ -1,0 +1,223 @@
+﻿<Window x:Class="VanekCraftInstaller.InstallerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:VanekCraftInstaller"
+        xmlns:vm="clr-namespace:VanekCraftInstaller.ViewModel"
+        Title="VanekCraft Instalátor"
+        Width="1024" Height="768"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Background="#FF1E1E1E">
+
+    <Window.Resources>
+        <vm:StepTextConverter x:Key="StepTextConverter"/>
+        <vm:StepColorConverter x:Key="StepColorConverter"/>
+        <vm:StepFontSizeConverter x:Key="StepFontSizeConverter"/>
+        <vm:StepFontFamilyConverter x:Key="StepFontFamilyConverter"/>
+        <vm:StepFontWeightConverter x:Key="StepFontWeightConverter"/>
+        <vm:StepFontStyleConverter x:Key="StepFontStyleConverter"/>
+        <vm:BoolToTextConverter x:Key="BoolToTextConverter"/>
+        
+        <Style x:Key="HeadingText" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="#FFE67E22"/>
+            <Setter Property="FontFamily" Value="pack://application:,,,/Assets/Fonts/#Ubuntu"/>
+        </Style>
+        
+        <Style x:Key="InstallerStepTextStyle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Margin" Value="0,8,0,0"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="FontFamily" Value="pack://application:,,,/Assets/Fonts/#Ubuntu"/>
+        </Style>
+        
+        <Style x:Key="InstallerButton" TargetType="Button">
+            <Setter Property="Background" Value="#FF3E3E42"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderBrush" Value="#FF5A5A5A"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="15,8"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="FontFamily" Value="pack://application:,,,/Assets/Fonts/#Ubuntu"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="5">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Trigger.EnterActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <ColorAnimation Storyboard.TargetProperty="Background.Color"
+                                                            To="#FFE67E22" Duration="0:0:0.2"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.EnterActions>
+                                <Trigger.ExitActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <ColorAnimation Storyboard.TargetProperty="Background.Color"
+                                                            To="#FF3E3E42" Duration="0:0:0.2"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.ExitActions>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="#FFD35400"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Property="Background" Value="#FF2A2A2A"/>
+                                <Setter Property="Foreground" Value="#FF666666"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Hlavní obsah -->
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.25*"/>
+                <ColumnDefinition Width="0.75*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Levý panel – kroky -->
+            <Border Grid.Column="0"
+                    Background="#FF2D2D30"
+                    BorderBrush="#FF3E3E42"
+                    BorderThickness="0,0,1,0">
+                <StackPanel Margin="25,30">
+                    <TextBlock Text="Kroky instalace"
+                               Style="{StaticResource HeadingText}"
+                               Margin="0,0,0,25"
+                               TextAlignment="Center"/>
+                    <ItemsControl ItemsSource="{Binding Steps}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Border Background="Transparent"
+                                        CornerRadius="8"
+                                        Margin="0,2">
+                                    <TextBlock Margin="0,8,0,0" Padding="10,5">
+                                        <TextBlock.Text>
+                                            <MultiBinding Converter="{StaticResource StepTextConverter}">
+                                                <Binding Path="."/>
+                                                <Binding Path="IsActive"/>
+                                                <Binding Path="IsCompleted"/>
+                                            </MultiBinding>
+                                        </TextBlock.Text>
+                                        <TextBlock.Foreground>
+                                            <MultiBinding Converter="{StaticResource StepColorConverter}">
+                                                <Binding Path="."/>
+                                                <Binding Path="IsActive"/>
+                                                <Binding Path="IsCompleted"/>
+                                            </MultiBinding>
+                                        </TextBlock.Foreground>
+                                        <TextBlock.FontSize>
+                                            <MultiBinding Converter="{StaticResource StepFontSizeConverter}">
+                                                <Binding Path="."/>
+                                                <Binding Path="IsActive"/>
+                                                <Binding Path="IsCompleted"/>
+                                            </MultiBinding>
+                                        </TextBlock.FontSize>
+                                        <TextBlock.FontFamily>
+                                            <MultiBinding Converter="{StaticResource StepFontFamilyConverter}">
+                                                <Binding Path="."/>
+                                                <Binding Path="IsActive"/>
+                                                <Binding Path="IsCompleted"/>
+                                            </MultiBinding>
+                                        </TextBlock.FontFamily>
+                                        <TextBlock.FontWeight>
+                                            <MultiBinding Converter="{StaticResource StepFontWeightConverter}">
+                                                <Binding Path="."/>
+                                                <Binding Path="IsActive"/>
+                                                <Binding Path="IsCompleted"/>
+                                            </MultiBinding>
+                                        </TextBlock.FontWeight>
+                                        <TextBlock.FontStyle>
+                                            <MultiBinding Converter="{StaticResource StepFontStyleConverter}">
+                                                <Binding Path="."/>
+                                                <Binding Path="IsActive"/>
+                                                <Binding Path="IsCompleted"/>
+                                            </MultiBinding>
+                                        </TextBlock.FontStyle>
+                                    </TextBlock>
+                                </Border>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>
+            </Border>
+
+            <!-- Pravý panel – dynamický obsah -->
+            <Border Grid.Column="1"
+                    Background="#FF1E1E1E"
+                    Padding="40"
+                    CornerRadius="0,10,10,0">
+                <Border Background="#FF252525"
+                        CornerRadius="10"
+                        Padding="30">
+                    <ContentControl x:Name="MainContentControl" 
+                                    Content="{Binding CurrentContent}"
+                                    HorizontalAlignment="Stretch"
+                                    VerticalAlignment="Stretch"/>
+                </Border>
+            </Border>
+
+
+        </Grid>
+
+        <!-- Spodní panel – tlačítka -->
+        <Border Grid.Row="1"
+                Background="#FF2D2D30"
+                BorderBrush="#FF3E3E42"
+                BorderThickness="0,1,0,0"
+                Padding="20,15">
+            <Grid>
+                <StackPanel Orientation="Horizontal"
+                            HorizontalAlignment="Left">
+                    <TextBlock Text="VanekCraft Instalátor v1.0"
+                               FontSize="12"
+                               Foreground="#FF888888"
+                               VerticalAlignment="Center"/>
+                </StackPanel>
+                
+                <StackPanel Orientation="Horizontal"
+                            HorizontalAlignment="Right">
+                    <Button Content="← Zpět"
+                            Style="{StaticResource InstallerButton}"
+                            Width="100"
+                            Height="35"
+                            Margin="0,0,15,0"
+                            IsEnabled="{Binding CanGoBack}"
+                            Click="BackButton_Click"/>
+                    <Button Style="{StaticResource InstallerButton}"
+                            Width="100"
+                            Height="35"
+                            Click="NextButton_Click">
+                        <TextBlock>
+                            <TextBlock.Text>
+                                <Binding Path="IsLastStep" Converter="{StaticResource BoolToTextConverter}" ConverterParameter="Dokončit →|Další →" FallbackValue="Další →"/>
+                            </TextBlock.Text>
+                        </TextBlock>
+                    </Button>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>
