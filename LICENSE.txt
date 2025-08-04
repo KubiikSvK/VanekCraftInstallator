@@ -1,3 +1,46 @@
+MIT Licence
+
+Copyright (c) 2025 Jakub Vanek
+
+Tímto je uděleno zdarma oprávnění komukoli,
+kdo získá kopii tohoto softwaru a přidružené dokumentace (dále jen „Software“),
+používat Software bez omezení,
+včetně, ale nikoli výlučně,
+práva software používat, kopírovat, upravovat, spojovat, publikovat, distribuovat, sublicencovat a/nebo prodávat kopie softwaru,
+a také umožnit osobám, kterým je Software poskytován, tak učinit, za podmínek:
+
+Výše uvedené oznámení o autorských právech a toto oprávnění musí být zahrnuto ve všech kopiích nebo významných částech Software.
+
+SOFTWARE JE POSKYTOVÁN „TAK JAK JE“,
+BEZ JAKÉKOLI ZÁRUKY, VÝSLOVNÝCH NEBO IMPLICITNÍCH, VČETNĚ, ALE NE VÝLUČNĚ,
+ZÁRUK OBCHODOVATELNOSTI, VHODNOSTI PRO KONKRÉTNÍ ÚČEL A NEPORUŠENÍ PRÁV.
+
+V ŽÁDNÉM PŘÍPADĚ NEJSOU AUTOŘI NEBO DRŽITELÉ AUTORSKÝCH PRÁV ODPOVĚDNÍ ZA JAKÉKOLI NÁROKY, ŠKODY NEBO JINOU ODPOVĚDNOST,
+AŤ UŽ V RÁMCI SMLOUVY, DELIKTU NEBO JINAK, VYPLÝVAJÍCÍ Z POUŽÍVÁNÍ SOFTWARU NEBO JINÝCH JEDNÁNÍ SOUVISEJÍCÍCH SE SOFTWAREM.
+
+-------------------------------------------------------------------------------------
+
+DODATEČNÉ PODMÍNKY KOMERČNÍHO VYUŽITÍ
+
+Tento software je licencován pod výše uvedenou MIT licencí, která umožňuje bezplatné použití, 
+úpravy a distribuci.
+
+Nicméně jakékoli komerční využití tohoto softwaru — tj. využití pro generování zisku, 
+prodej nebo jinou monetizaci — vyžaduje výslovný souhlas autora, Jakuba Vaneka.
+
+Pokud máte v plánu software komerčně využívat, musíte kontaktovat autora a dohodnout se na 
+férovém podílu na zisku nebo licenční smlouvě.
+
+Bez takové dohody je komerční využití zakázáno.
+
+Prosíme, respektujte práva autora a spravedlivé podmínky.
+
+Kontakt: [jakub@vanekgroup.eu]
+
+
+
+-------------------------------------------------------------------------------------
+
 MIT License
 
 Copyright (c) 2025 Jakub Vanek
