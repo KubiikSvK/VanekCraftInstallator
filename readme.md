@@ -46,6 +46,18 @@ Nic z toho není legální náhrada licence Minecraftu, ale je to tvoje legáln�
 - Vyčistí dočasný soubory.
 - Vše automaticky připravené, abys klikal a hrál.
 
+### 📦 Co se děje pod kapotou (transparentnost first, drama never)
+
+- 🧰 **SKLauncher** je stažen ve své originální, neupravené podobě – buď z oficiálního odkazu, nebo z mého CDN pro rychlejší a stabilnější instalaci.
+- 📁 **.minecraft složka** obsahuje předpřipravenou strukturu s verzí **1.21.3**, vygenerovanou samotným SKLauncherem.2
+- 📝 Během instalace upravujeme:
+  - `accounts.json` – aby sis mohl(a) zvolit vlastní nick (nepoužíváme skutečné účty).
+  - `launcher_profiles.json` – nastaví se profil s Fabric Loaderem pro snadné spuštění VanekCraftu.
+- ✨ **Fabric Installer** je stažen z CDN a spuštěn bez keců (a klikání), v tichém režimu.
+- 📦 **Modpack** je zabalen jako jeden `.zip` archiv bez úprav jednotlivých modů – prostě tak, jak je autoři vytvořili.
+
+> 💡 Všechno, co se děje, je navržené s respektem k právům vývojářů. Nic nevydáváme za vlastní a nikoho nešidíme. Jen to skládáme dohromady jako LEGO pro pohodlnější start.
+
 ---
 
 ## 📦 Modpack obsahuje (aktuální 31.07.2025):
