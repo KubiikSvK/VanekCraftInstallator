@@ -60,7 +60,17 @@ Nic z toho není legální náhrada licence Minecraftu, ale je to tvoje legáln�
 
 Tento projekt je uvolněn pod licencí **MIT**.
 
-> Povoluje použití, kopírování, úpravy, distribuci a komerční využití s podmínkou zachování původního copyrightu.
+Tento projekt je open source, vznikl jako můj osobní learn projekt s pomocí AI (ChatGPT, Copilot, Amazon Q a AWS).
+
+Používám zde otevřenou MIT licenci, což znamená, že můžete kód volně používat, upravovat a šířit.  
+Minecraft, SK Launcher, Fabric a mody v modpacku nejsou moje dílo — všechny autorská práva patří jejich skutečným tvůrcům.
+
+Pokud byste ale chtěli tento projekt využít komerčně (třeba ho prodávat nebo jinak z něj profitovat),  
+musíte mě nejdřív kontaktovat a domluvit se na licenci a spravedlivém podílu na zisku.
+
+Respektujte prosím mou práci a mějte na paměti, že i když vám dávám kód skoro zadarmo, není to na hraní na černo.
+
+> Povoluje použití, kopírování, úpravy, distribuci a nekomerční využití s podmínkou zachování původního copyrightu.
 
 - Minecraft®, Mojang® a všechny další značky a assety nejsou součástí tohoto projektu a patří jejich vlastníkům.  
 - SKLauncher a použité módy rovněž patří svým autorům a jsou distribuovány v souladu s jejich podmínkami.
