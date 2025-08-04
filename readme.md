@@ -1,8 +1,8 @@
 # 🎮 VanekCraft Instalátor 0.1.0-rc1
 
-Vítej u oficiálně-neoficiálního průvodce instalací megamodbalu VanekCraft!  
+Vítej u oficiálně-neoficiálního průvodce instalací megamodpacku VanekCraft!  
 Máš tu projekt *open source*, vytvořený jako výukový featurkód ve Visual Studio 2022, s podporou AI magií (ChatGPT, Copilot od Microsoftu a Amazon Q & AWS).  
-Nic z toho není legální náhrada licence Minecraftu, ale je to tvoje legální dílo. 😎
+Nic z toho není legální náhrada licence Minecraftu, ale je to moje legální dílo. 😎
 
 „Když už se má Minecraft spustit, tak ať to aspoň nedá zabrat.“ – každej, kdo to musel dělat ručně
 
