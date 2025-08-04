@@ -1,3 +1,33 @@
+VanekCraft Instalátor 0.1.0-rc1
+
+„Když už se má Minecraft spustit, tak ať to aspoň nedá zabrat.“ – každej, kdo to musel dělat ručně
+
+💾 Co tahle verze umí:
+
+Stáhne launcher (SKL nebo ofiko) a připraví ti profil jak dělaný pro hraní na vanekCraft serveru.
+Automaticky nainstaluje modpack s Fabricem – žádný klikání, žádný bloudění.
+Přidá ti ikonu na plochu, protože jsme prostě tak hodný.
+Umí si i sama stáhnout Javu, pokud ji nemáš – ne že bychom ti lezli do kompu… ale trošku jo.
+Celý to probíhá skoro bez kecání – jen pár statusů, protože sarkasmus je potřeba všude.
+
+🧪 Testováno na:
+
+✅ Windows 11
+
+⏳ Windows 10 (brzy proklepneme)
+
+🔄 Windows 7 (v plánu)
+
+🐧 Linux verze (někdy… v budoucnu… až bude čas, nálada a Red Bull)
+
+⚠️ Poznámky:
+
+Instalátor sice rozumí launcherům a modpackům, ale nevaří kafe. Zatím.
+
+Pokud něco spadne – to je v pohodě, je to RCčko. Hlášení bugů vítáno na GitHub issues nebo poštovním holubem.
+
+Minecraft, SKLauncher a jednotlivé mody nejsou moje – vše patří svým původním autorům, já jsem to jen složil jako LEGO. Copyright kódů patří mně.
+
 # 🎮 VanekCraft Instalátor
 
 Vítej u oficiálně-neoficiálního průvodce instalací megamodbalu VanekCraft!  
@@ -22,7 +52,8 @@ Nic z toho není legální náhrada licence Minecraftu, ale je to tvoje legáln�
 
 **Aktuální seznam modů (k 31.07.2025):**
 
-| Mod (verze)                             | Popis                                | Licence a odkazy                                    |
+| Mod (verze)                             | Popis                                | Licence a odk0
+ azy                                    |
 |----------------------------------------|------------------------------------|----------------------------------------------------|
 | architectury-14.0.4-fabric.jar          | Abstraktní API pro více‑loader modů| [Modrinth](https://modrinth.com/mod/architectury) (MIT License) |
 | balm-fabric-1.21.3-21.3.5.jar           | Usnadňuje vývoj napříč mod-loadery | [Modrinth](https://modrinth.com/mod/balm) (MIT License) |
@@ -74,7 +105,7 @@ Pokud někdo chce můj kód použít, klidně ať ho použije, ale:
   Mojang si drží svoje autorský práva a instalátor pouze usnadňuje legální instalaci oficiálního klienta.
 - **SKLauncher (SKL)** je open-source projekt dostupný na [GitHubu](https://github.com/skmedix/SKlauncher) pod licencí MIT (respektive pod jejich licencí, kterou najdeš v repozitáři).  
   Instalátor jej stahuje z mého CDN, aby byl proces rychlejší a jednodušší, ale SKL zůstává vlastnictvím původních vývojářů.
-- **Fabric a módy** jsou vlastnictvím jejich autorů a instalátor je jen distribuuje ve spoustě pro lepší uživatelský zážitek.  
+-410 **Fabric a módy** jsou vlastnictvím jejich autorů a instalátor je jen distribuuje ve spoustě pro lepší uživatelský zážitek.  
   Licence jednotlivých modů najdeš v jejich repozitářích nebo na stránkách autorů.
 
 ### Souhrn licencí použitého softwaru:
