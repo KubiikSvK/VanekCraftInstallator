@@ -20,28 +20,31 @@ Nic z toho není legální náhrada licence Minecraftu, ale je to tvoje legáln�
 
 ## 📦 Modpack obsahuje (aktuální 31.07.2025):
 
-| Mod (verze) | Popis | Licence |
-|-------------|--------|---------|
-| `architectury-14.0.4-fabric.jar` | Abstraktní API pro více‑loader modů | ❓ dostupné na Modrinth |
-| `balm-fabric-1.21.3-21.3.5.jar` | Usnadňuje vývoj napříč mod-loadery :contentReference[oaicite:1]{index=1}  
-| `cloth-config-16.0.143-fabric.jar` | Konfigurační API pro mody | (Modrinth) |
-| `fabric-api-0.114.1+1.21.3.jar` | Základní API pro Fabric modding :contentReference[oaicite:2]{index=2}  
-| `fabric-language-kotlin-1.13.4+kotlin.2.2.0.jar` | Kotlin rozhraní pro Fabric | (Modrinth) |
-| `ferritecore-7.1.0-hotfix-fabric.jar` | Optimalizace paměti | (Modrinth) |
-| `ForgeConfigAPIPort-v21.3.4-1.21.3-Fabric.jar` | Port Forge konfiguračního API | (Modrinth) |
-| `fpsdisplay-4.2.3+1.21.3.jar` | Zobrazení FPS a debug info | |
-| `inventoryessentials-fabric-1.21.3-21.3.2.jar` | Uživatelské UI v invetáři | |
-| `libIPN-fabric-1.21.3-6.4.0.jar` | Síťovky a IP propojení | |
-| `lithium-fabric-0.14.6+mc1.21.3.jar` | Herní logika optimalizace | |
-| `modmenu-12.0.0.jar` | Zobrazení modů v launcheru :contentReference[oaicite:3]{index=3}  
-| `open-parties-and-claims-fabric-1.21.3-0.24.0.jar` | Ochrany a party systémy | |
-| `RoughlyEnoughItems-17.0.807-fabric.jar` | GUI pro předmětový cheat/help list | |
-| `sodium-extra-fabric-0.6.0+mc1.21.3.jar` | DLC pro Sodium performance mod | |
-| `sodium-fabric-0.6.13+mc1.21.3.jar` | Extrémní grafické optimalizace | |
-| `tree-chopping-v4.1.4.jar` | Napůlpá zářez pro stromování | |
-| `Xaeros_Minimap_25.2.10_Fabric_1.21.3.jar` | Minimapka s waypointy | |
-| `XaerosWorldMap_1.39.12_Fabric_1.21.3.jar` | Celosvětová mapa pro snadnou orientaci | |
-| `yet_another_config_lib_v3-3.7.1+1.21.3-fabric.jar` | Další konfigurační knihovna | |
+**Aktuální seznam modů (k 31.07.2025):**
+
+| Mod (verze)                             | Popis                                | Licence a odkazy                                    |
+|----------------------------------------|------------------------------------|----------------------------------------------------|
+| architectury-14.0.4-fabric.jar          | Abstraktní API pro více‑loader modů| [Modrinth](https://modrinth.com/mod/architectury) (MIT License) |
+| balm-fabric-1.21.3-21.3.5.jar           | Usnadňuje vývoj napříč mod-loadery | [Modrinth](https://modrinth.com/mod/balm) (MIT License) |
+| cloth-config-16.0.143-fabric.jar        | Konfigurační API pro mody           | [Modrinth](https://modrinth.com/mod/cloth-config) (MIT License) |
+| fabric-api-0.114.1+1.21.3.jar           | Základní API pro Fabric modding    | [Modrinth](https://modrinth.com/mod/fabric-api) (MIT License) |
+| fabric-language-kotlin-1.13.4+kotlin... | Kotlin rozhraní pro Fabric          | [Modrinth](https://modrinth.com/mod/fabric-language-kotlin) (MIT License) |
+| ferritecore-7.1.0-hotfix-fabric.jar     | Optimalizace paměti                 | [Modrinth](https://modrinth.com/mod/ferritecore) (MIT License) |
+| ForgeConfigAPIPort-v21.3.4-1.21.3-Fabric.jar | Port Forge konfiguračního API  | [Modrinth](https://modrinth.com/mod/forgeconfigapiport) (MIT License) |
+| fpsdisplay-4.2.3+1.21.3.jar             | Zobrazení FPS a debug info          | (MIT License, [GitHub](https://github.com/FabricMC/fpsdisplay)) |
+| inventoryessentials-fabric-1.21.3-21.3.2.jar | Uživatelské UI v inventáři      | [Modrinth](https://modrinth.com/mod/inventory-essentials) (MIT License) |
+| libIPN-fabric-1.21.3-6.4.0.jar          | Síťovky a IP propojení              | [Modrinth](https://modrinth.com/mod/libipn) (MIT License) |
+| lithium-fabric-0.14.6+mc1.21.3.jar      | Herní logika optimalizace          | [Modrinth](https://modrinth.com/mod/lithium) (MIT License) |
+| modmenu-12.0.0.jar                       | Zobrazení modů v launcheru          | [Modrinth](https://modrinth.com/mod/modmenu) (MIT License) |
+| open-parties-and-claims-fabric-1.21.3-0.24.0.jar | Ochrany a party systémy          | [Modrinth](https://modrinth.com/mod/open-parties-and-claims) (MIT License) |
+| RoughlyEnoughItems-17.0.807-fabric.jar  | GUI pro předmětový cheat/help list | [Modrinth](https://modrinth.com/mod/roughly-enough-items) (MIT License) |
+| sodium-extra-fabric-0.6.0+mc1.21.3.jar | DLC pro Sodium performance mod     | [Modrinth](https://modrinth.com/mod/sodium-extra) (MIT License) |
+| sodium-fabric-0.6.13+mc1.21.3.jar       | Extrémní grafické optimalizace     | [Modrinth](https://modrinth.com/mod/sodium) (MIT License) |
+| tree-chopping-v4.1.4.jar                 | Napůlpá zářez pro stromování       | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/tree-chopping) (MIT License) |
+| Xaeros_Minimap_25.2.10_Fabric_1.21.3.jar | Minimapka s waypointy             | [Modrinth](https://modrinth.com/mod/xaeros-minimap) (Proprietary) |
+| XaerosWorldMap_1.39.12_Fabric_1.21.3.jar | Celosvětová mapa pro snadnou orientaci | [Modrinth](https://modrinth.com/mod/xaeros-world-map) (Proprietary) |
+| yet_another_config_lib_v3-3.7.1+1.21.3-fabric.jar | Další konfigurační knihovna  | [Modrinth](https://modrinth.com/mod/yacl) (MIT License) |
+
 
 **Poznámka:** Modpack a jeho mody nejsou můj produkt. Všechny autorská práva patří jejich vývojářům. Instalátor modpacku je pouze distribuční most.
 
