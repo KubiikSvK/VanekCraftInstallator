@@ -136,18 +136,28 @@ Hraní Minecraftu je radost, ale respekt k autorům musí bejt taky.
 
 ---
 
-## 🤖 Využité AI / Nástroje
+### 📚 Použité zkratky a jejich významy
 
-- **ChatGPT** (OpenAI) – generování textů a promptů  
-- **GitHub Copilot** (Microsoft) – při psaní C# a XAML kódu  
-- **Amazon Q & AWS** – testování, automatizace a kontrola kódování  
-- Vytvářeno jako *learn‑projekt* a důkaz, že i AI spoluautor může být sranda.
+- **SKL** – SK Launcher (neoficiální Minecraft launcher)  
+- **MC** – Minecraft  
+- **MSA** – Microsoft Account (přihlašovací systém od Microsoftu)  
+- **VS2022** – Visual Studio 2022 (vývojové prostředí)  
+- **AI** – Artificial Intelligence (umělá inteligence využitá v projektu)  
+  - **ChatGPT** – jazykový model od OpenAI využitý při vývoji  
+  - **GitHub Copilot** – AI asistent od Microsoftu  
+  - **AWS** – Amazon Web Services (cloudové služby Amazonu)  
+- **GitHub** – platforma pro správu verzí a spolupráci na kódu  
+- **CDN** – Content Delivery Network (síť serverů pro rychlé doručování souborů)  
+- **RC** – Release Candidate (předběžná verze připravená k vydání)  
+- **SDK** – Software Development Kit (soubor nástrojů pro vývoj software)  
+- **API** – Application Programming Interface (rozhraní pro komunikaci mezi programy)  
+- **CLI** – Command Line Interface (programy ovládané příkazovým řádkem)  
 
 ---
 
-## 🚀 Autorka / Autor
+## 🚀 Autor
 
-**Jakub Vanek(KubiikSvK)**  
+**Jakub Vanek (KubiikSvK)**  
 Zkušenosti: pixelový chaos, vtipné instalátory, rádoby kvalitní modpacky.  
 GitHub: [kubiiksvk](https://github.com/KubiikSvK)
 
@@ -155,6 +165,6 @@ GitHub: [kubiiksvk](https://github.com/KubiikSvK)
 
 ## 🔚 Závěr
 
-Díky za to, že jsi to dočetl/a. A pokud tohle skutečně běží, dáváš si respekt – jsi legenda. ✨  
+Díky za to, že jsi to dočetl/a. A pokud tohle skutečně dočetl až sem, máš můj respekt – jsi legenda. ✨  
 Stačí kliknout a hrát. Gl hf! (Good luck, have fun!)
 
