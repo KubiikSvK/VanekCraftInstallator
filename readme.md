@@ -56,33 +56,42 @@ Nic z toho není legální náhrada licence Minecraftu, ale je to tvoje legáln�
 
 ---
 
-## 🧾 Licence & právní info
+## Licence a Práva
 
-Tento projekt je uvolněn pod licencí **MIT**.
+### O mojí práci
+Tento instalátor je můj vlastní výtvor, napsaný s pomocí AI (ChatGPT, Copilot, Amazon Q & AWS).  
+Je to takovej malej love project, abych si ulehčil život při instalaci Minecraft modpacků.  
+Pokud někdo chce můj kód použít, klidně ať ho použije, ale:
+- Musí mě uvést jako autora (díky, to je slušnost).
+- Pokud z toho bude někdo profitovat, musí mít moje svolení a nějaký to procento z toho taky patří mě.  
+- Jinak je to moje práce, tak s tím prosím nemanipulujte, abych nepřišel o své práva.
 
-Tento projekt je open source, vznikl jako můj osobní learn projekt s pomocí AI (ChatGPT, Copilot, Amazon Q a AWS).
+### Co je ve hře a odkud pochází
+- **Minecraft** je majetkem Microsoftu, jeho licence najdeš [tady](https://account.mojang.com/documents/minecraft_eula).  
+  Mojang si drží svoje autorský práva a instalátor pouze usnadňuje legální instalaci oficiálního klienta.
+- **SKLauncher (SKL)** je open-source projekt dostupný na [GitHubu](https://github.com/skmedix/SKlauncher) pod licencí MIT (respektive pod jejich licencí, kterou najdeš v repozitáři).  
+  Instalátor jej stahuje z mého CDN, aby byl proces rychlejší a jednodušší, ale SKL zůstává vlastnictvím původních vývojářů.
+- **Fabric a módy** jsou vlastnictvím jejich autorů a instalátor je jen distribuuje ve spoustě pro lepší uživatelský zážitek.  
+  Licence jednotlivých modů najdeš v jejich repozitářích nebo na stránkách autorů.
 
-Používám zde otevřenou MIT licenci, což znamená, že můžete kód volně používat, upravovat a šířit.  
-Minecraft, SK Launcher, Fabric a mody v modpacku nejsou moje dílo — všechny autorská práva patří jejich skutečným tvůrcům.
+### Souhrn licencí použitého softwaru:
+- Instalátor: [MIT Licence](./LICENSE) (tohle je moje)
+- Minecraft: [EULA Mojang](https://account.mojang.com/documents/minecraft_eula)
+- SKLauncher: [MIT Licence SKL](https://github.com/skmedix/SKlauncher/blob/master/LICENSE)
+- Fabric: [Fabric Licence](https://fabricmc.net/terms/)
 
-Pokud byste ale chtěli tento projekt využít komerčně (třeba ho prodávat nebo jinak z něj profitovat),  
-musíte mě nejdřív kontaktovat a domluvit se na licenci a spravedlivém podílu na zisku.
+---
 
-Respektujte prosím mou práci a mějte na paměti, že i když vám dávám kód skoro zadarmo, není to na hraní na černo.
-
-> Povoluje použití, kopírování, úpravy, distribuci a nekomerční využití s podmínkou zachování původního copyrightu.
-
-- Minecraft®, Mojang® a všechny další značky a assety nejsou součástí tohoto projektu a patří jejich vlastníkům.  
-- SKLauncher a použité módy rovněž patří svým autorům a jsou distribuovány v souladu s jejich podmínkami.
-- Tento projekt **neporušuje licence** – nezahrnuje binárky módů ani launcheru, jen pomáhá uživateli vše stáhnout a nastavit.
+Pokud si nejsi jistý/á, co můžeš a co ne, tak radši nespouštěj instalátor nebo si přečti podrobně licence jednotlivých částí.  
+Hraní Minecraftu je radost, ale respekt k autorům musí bejt taky.
 
 ---
 
 ## 🤖 Využité AI / Nástroje
 
 - **ChatGPT** (OpenAI) – generování textů a promptů  
-- **GitHub Copilot** (Microsoft) – při psaní C# kódu  
-- **Amazon Q & AWS** – testování promptů a automatizace  
+- **GitHub Copilot** (Microsoft) – při psaní C# a XAML kódu  
+- **Amazon Q & AWS** – testování, automatizace a kontrola kódování  
 - Vytvářeno jako *learn‑projekt* a důkaz, že i AI spoluautor může být sranda.
 
 ---
