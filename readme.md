@@ -33,6 +33,14 @@ Pokud něco spadne – to je v pohodě, je to RCčko. Hlášení bugů vítáno 
 Minecraft, SKLauncher a jednotlivé mody nejsou moje – vše patří svým původním autorům, já jsem to jen složil jako LEGO. Copyright kódů instalátoru patří mně.
 ---
 
+### ⚠️ Upozornění k textům v instalátoru
+
+Texty a komentáře v instalátoru jsou psány s nadsázkou, sarkasmem a troškou rejpání.  
+Nemají za cíl nikoho urazit, zesměšnit nebo znevážit – jde čistě o uvolněnější a zábavnější komunikaci, aby instalace nebyla suchá a nudná.  
+
+Děkuji za pochopení a doufám, že tě to bude i bavit! 😄
+---
+
 ## 🧠 Co dělá Instalátor
 
 - Proleze ti komp a zkontroluje Java 17+ (na fotky tvý/ho ex nešahá).
@@ -45,11 +53,12 @@ Minecraft, SKLauncher a jednotlivé mody nejsou moje – vše patří svým pův
 
 ### 📦 Co se děje pod kapotou (transparentnost first, drama never)
 
-- 🧰 **SKLauncher** je stažen ve své originální, neupravené podobě – buď z oficiálního odkazu, nebo z mého CDN pro rychlejší a stabilnější instalaci.
-- 📁 **.minecraft složka** obsahuje předpřipravenou strukturu s verzí **1.21.3**, vygenerovanou samotným SKLauncherem.2
+- 🧰 **SKLauncher** je zatím stahován pouze z mého CDN pro rychlou a stabilní instalaci.  
+  Podpora stahování přímo z oficiálního zdroje je v plánu a bude přidána brzy.
+- 📁 **.minecraft složka** obsahuje předpřipravenou strukturu s verzí **1.21.3**, vygenerovanou samotným SKLauncherem.
 - 📝 Během instalace upravujeme:
   - `accounts.json` – aby sis mohl(a) zvolit vlastní nick (nepoužíváme skutečné účty).
-  - `launcher_profiles.json` – nastaví se profil s Fabric Loaderem pro snadné spuštění VanekCraftu.
+  - `launcher_profiles.json` – nastaví se profil s Fabric Loaderem pro snadné spuštění.
 - ✨ **Fabric Installer** je stažen z CDN a spuštěn bez keců (a klikání), v tichém režimu.
 - 📦 **Modpack** je zabalen jako jeden `.zip` archiv bez úprav jednotlivých modů – prostě tak, jak je autoři vytvořili.
 
