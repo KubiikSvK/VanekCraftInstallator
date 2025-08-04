@@ -133,7 +133,7 @@ Pokud někdo chce můj kód použít, klidně ať ho použije, ale:
 | **Fabric Installer** | MIT License *(běžně používaná pro nástroje kolem Fabricu)* |
 | **Použité mody v modpacku** | Většinou MIT, některé proprietary – viz výše v tabulce |
 | **VanekCraft Instalátor (tento projekt)** | Upravená MIT Licence s omezením komerčního použití – viz `License.txt` |
-| **AI nástroje** | Výstupy z ChatGPT, GitHub Copilot a Amazon Q použity pro nekomerční vývoj a výukové účely |
+| **AI nástroje** | Výstupy z ChatGPT, Copilot a Amazon Q použity pro nekomerční vývoj a výukové účely |
 
 ---
 
@@ -152,7 +152,7 @@ Hraní Minecraftu je radost, ale respekt k autorům musí bejt taky.
 | **VS2022** | Visual Studio 2022 (vývojové prostředí) |
 | **AI** | Artificial Intelligence (umělá inteligence využitá v projektu) |
 | **ChatGPT** | Jazykový model od OpenAI využitý při vývoji |
-| **GitHub Copilot** | AI asistent od Microsoftu |
+| **Copilot** | AI asistent od Microsoftu |
 | **AWS** | Amazon Web Services (cloudové služby Amazonu) |
 | **GitHub** | Platforma pro správu verzí a spolupráci na kódu |
 | **CDN** | Content Delivery Network (síť serverů pro rychlé doručování souborů) |
