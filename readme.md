@@ -120,7 +120,7 @@ Pokud někdo chce můj kód použít, klidně ať ho použije, ale:
   Mojang si drží svoje autorský práva a instalátor pouze usnadňuje legální instalaci oficiálního klienta.
 - **SKLauncher (SKL)** je open-source projekt dostupný na [GitHubu](https://github.com/skmedix/SKlauncher) pod licencí MIT (respektive pod jejich licencí, kterou najdeš v repozitáři).  
   Instalátor jej stahuje z mého CDN, aby byl proces rychlejší a jednodušší, ale SKL zůstává vlastnictvím původních vývojářů.
--410 **Fabric a módy** jsou vlastnictvím jejich autorů a instalátor je jen distribuuje ve spoustě pro lepší uživatelský zážitek.  
+- **Fabric a módy** jsou vlastnictvím jejich autorů a instalátor je jen distribuuje ve spoustě pro lepší uživatelský zážitek.  
   Licence jednotlivých modů najdeš v jejich repozitářích nebo na stránkách autorů.
 
 ### Souhrn licencí použitého softwaru:
