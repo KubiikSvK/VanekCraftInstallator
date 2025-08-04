@@ -1,14 +1,14 @@
 # 🎮 VanekCraft Instalátor 0.1.0-rc1
 
 Vítej u oficiálně-neoficiálního průvodce instalací megamodpacku VanekCraft!  
-Máš tu projekt *open source*, vytvořený jako výukový featurkód ve Visual Studio 2022, s podporou AI magií (ChatGPT, Copilot od Microsoftu a Amazon Q & AWS).  
+Máš tu projekt *open source*, vytvořený jako výukový featurkód ve VS2022, s podporou AI magií.  
 Nic z toho není legální náhrada licence Minecraftu, ale je to moje legální dílo. 😎
 
 „Když už se má Minecraft spustit, tak ať to aspoň nedá zabrat.“ – každej, kdo to musel dělat ručně
 
 💾 Co tahle verze umí:
 
-Stáhne launcher (SKL nebo ofiko) a připraví ti profil jak dělaný pro hraní na vanekCraft serveru.
+Stáhne launcher (SKL nebo ofiko) a připraví ti profil jak dělaný pro hraní na VanekCraft serveru.
 Automaticky nainstaluje modpack s Fabricem – žádný klikání, žádný bloudění.
 Přidá ti ikonu na plochu, protože jsme prostě tak hodný.
 Umí si i sama stáhnout Javu, pokud ji nemáš – ne že bychom ti lezli do kompu… ale trošku jo.
@@ -30,13 +30,13 @@ Instalátor sice rozumí launcherům a modpackům, ale nevaří kafe. Zatím.
 
 Pokud něco spadne – to je v pohodě, je to RCčko. Hlášení bugů vítáno na GitHub issues nebo poštovním holubem.
 
-Minecraft, SKLauncher a jednotlivé mody nejsou moje – vše patří svým původním autorům, já jsem to jen složil jako LEGO. Copyright kódů instalátoru patří mně.
+MC, SKL a jednotlivé mody nejsou moje – vše patří svým původním autorům, já jsem to jen složil jako LEGO, Mimochodem, název lego taky patří svým autorům 😁. Copyright kódů instalátoru patří mně.
 ---
 
 ### ⚠️ Upozornění k textům v instalátoru
 
-Texty a komentáře v instalátoru jsou psány s nadsázkou, sarkasmem a troškou rejpání.  
-Nemají za cíl nikoho urazit, zesměšnit nebo znevážit – jde čistě o uvolněnější a zábavnější komunikaci, aby instalace nebyla suchá a nudná.  
+Texty a komentáře v instalátoru, readme, nebo kdekoliv v projektu jsou psány s nadsázkou, sarkasmem a troškou rejpání.  
+Nemají za cíl nikoho urazit, zesměšnit nebo znevážit – jde čistě o uvolněnější a zábavnější komunikaci, aby projekt nebyl suchý a nudný.  
 
 Děkuji za pochopení a doufám, že tě to bude i bavit! 😄
 ---
@@ -53,9 +53,9 @@ Děkuji za pochopení a doufám, že tě to bude i bavit! 😄
 
 ### 📦 Co se děje pod kapotou (transparentnost first, drama never)
 
-- 🧰 **SKLauncher** je zatím stahován pouze z mého CDN pro rychlou a stabilní instalaci.  
+- 🧰 **SKL** je zatím stahován pouze z mého CDN pro rychlou a stabilní instalaci.  
   Podpora stahování přímo z oficiálního zdroje je v plánu a bude přidána brzy.
-- 📁 **.minecraft složka** obsahuje předpřipravenou strukturu s verzí **1.21.3**, vygenerovanou samotným SKLauncherem.
+- 📁 **.minecraft složka** obsahuje předpřipravenou strukturu s verzí **1.21.3**, vygenerovanou samotným SKL.
 - 📝 Během instalace upravujeme:
   - `accounts.json` – aby sis mohl(a) zvolit vlastní nick (nepoužíváme skutečné účty).
   - `launcher_profiles.json` – nastaví se profil s Fabric Loaderem pro snadné spuštění.
@@ -98,7 +98,7 @@ Děkuji za pochopení a doufám, že tě to bude i bavit! 😄
 
 ## 🧩 Jak si to nainstalovat
 
-1. Vyber `.exe` → spusť jako admin
+1. Vyber `.exe` → spusť pro jistotu jako admin, když ne, asi se nic vážnýho nestane, při nejhorším to nebude fungovat 😁
 2. Sledu kroky v instalátoru
 3. Zaškrtni „Spustit launcher“ nebo užívej kliknutím
 4. Pokud Launcher zlobí, zkus restart nebo mi napiš (existuji 😏)
@@ -108,8 +108,8 @@ Děkuji za pochopení a doufám, že tě to bude i bavit! 😄
 ## Licence a Práva
 
 ### O mojí práci
-Tento instalátor je můj vlastní výtvor, napsaný s pomocí AI (ChatGPT, Copilot, Amazon Q & AWS).  
-Je to takovej malej love project, abych si ulehčil život při instalaci Minecraft modpacků.  
+Tento instalátor je můj vlastní výtvor, napsaný s pomocí AI.  
+Je to takovej malej love project, abych si, nebo Tobě ulehčil život při instalaci Minecraft modpacků.  
 Pokud někdo chce můj kód použít, klidně ať ho použije, ale:
 - Musí mě uvést jako autora (díky, to je slušnost).
 - Pokud z toho bude někdo profitovat, musí mít moje svolení a nějaký to procento z toho taky patří mě.  
@@ -117,17 +117,23 @@ Pokud někdo chce můj kód použít, klidně ať ho použije, ale:
 
 ### Co je ve hře a odkud pochází
 - **Minecraft** je majetkem Microsoftu, jeho licence najdeš [tady](https://account.mojang.com/documents/minecraft_eula).  
-  Mojang si drží svoje autorský práva a instalátor pouze usnadňuje legální instalaci oficiálního klienta.
+  Mojang si drží svoje autorský práva a můj instalátor pouze usnadňuje legální instalaci oficiálního klienta.
 - **SKLauncher (SKL)** je open-source projekt dostupný na [GitHubu](https://github.com/skmedix/SKlauncher) pod licencí MIT (respektive pod jejich licencí, kterou najdeš v repozitáři).  
   Instalátor jej stahuje z mého CDN, aby byl proces rychlejší a jednodušší, ale SKL zůstává vlastnictvím původních vývojářů.
 - **Fabric a módy** jsou vlastnictvím jejich autorů a instalátor je jen distribuuje ve spoustě pro lepší uživatelský zážitek.  
   Licence jednotlivých modů najdeš v jejich repozitářích nebo na stránkách autorů.
 
-### Souhrn licencí použitého softwaru:
-- Instalátor: [MIT Licence](./LICENSE) (tohle je moje)
-- Minecraft: [EULA Mojang](https://account.mojang.com/documents/minecraft_eula)
-- SKLauncher: [MIT Licence SKL](https://github.com/skmedix/SKlauncher/blob/master/LICENSE)
-- Fabric: [Fabric Licence](https://fabricmc.net/terms/)
+### 📄 Licence použitých nástrojů a softwaru
+
+| Nástroj / Platforma | Licence |
+|----------------------|---------|
+| **Minecraft** | [Microsoft EULA](https://www.minecraft.net/en-us/eula) |
+| **SKLauncher** | [SKLauncher License](https://skmedix.pl/sklauncher) *(viz dolní část stránky)* |
+| **Visual Studio 2022** | [Microsoft Software License Terms](https://visualstudio.microsoft.com/license-terms/) |
+| **Fabric Installer** | MIT License *(běžně používaná pro nástroje kolem Fabricu)* |
+| **Použité mody v modpacku** | Většinou MIT, některé proprietary – viz výše v tabulce |
+| **VanekCraft Instalátor (tento projekt)** | Upravená MIT Licence s omezením komerčního použití – viz `License.txt` |
+| **AI nástroje** | Výstupy z ChatGPT, GitHub Copilot a Amazon Q použity pro nekomerční vývoj a výukové účely |
 
 ---
 
@@ -138,20 +144,23 @@ Hraní Minecraftu je radost, ale respekt k autorům musí bejt taky.
 
 ### 📚 Použité zkratky a jejich významy
 
-- **SKL** – SK Launcher (neoficiální Minecraft launcher)  
-- **MC** – Minecraft  
-- **MSA** – Microsoft Account (přihlašovací systém od Microsoftu)  
-- **VS2022** – Visual Studio 2022 (vývojové prostředí)  
-- **AI** – Artificial Intelligence (umělá inteligence využitá v projektu)  
-  - **ChatGPT** – jazykový model od OpenAI využitý při vývoji  
-  - **GitHub Copilot** – AI asistent od Microsoftu  
-  - **AWS** – Amazon Web Services (cloudové služby Amazonu)  
-- **GitHub** – platforma pro správu verzí a spolupráci na kódu  
-- **CDN** – Content Delivery Network (síť serverů pro rychlé doručování souborů)  
-- **RC** – Release Candidate (předběžná verze připravená k vydání)  
-- **SDK** – Software Development Kit (soubor nástrojů pro vývoj software)  
-- **API** – Application Programming Interface (rozhraní pro komunikaci mezi programy)  
-- **CLI** – Command Line Interface (programy ovládané příkazovým řádkem)  
+| Zkratka | Význam |
+|--------|--------|
+| **SKL** | SK Launcher (neoficiální Minecraft launcher) |
+| **MC** | Minecraft |
+| **MSA** | Microsoft Account (přihlašovací systém od Microsoftu) |
+| **VS2022** | Visual Studio 2022 (vývojové prostředí) |
+| **AI** | Artificial Intelligence (umělá inteligence využitá v projektu) |
+| **ChatGPT** | Jazykový model od OpenAI využitý při vývoji |
+| **GitHub Copilot** | AI asistent od Microsoftu |
+| **AWS** | Amazon Web Services (cloudové služby Amazonu) |
+| **GitHub** | Platforma pro správu verzí a spolupráci na kódu |
+| **CDN** | Content Delivery Network (síť serverů pro rychlé doručování souborů) |
+| **RC** | Release Candidate (předběžná verze připravená k vydání) |
+| **SDK** | Software Development Kit (soubor nástrojů pro vývoj software) |
+| **API** | Application Programming Interface (rozhraní pro komunikaci mezi programy) |
+| **CLI** | Command Line Interface (programy ovládané příkazovým řádkem) |
+
 
 ---
 
