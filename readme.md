@@ -1,4 +1,8 @@
-VanekCraft Instalátor 0.1.0-rc1
+# 🎮 VanekCraft Instalátor 0.1.0-rc1
+
+Vítej u oficiálně-neoficiálního průvodce instalací megamodbalu VanekCraft!  
+Máš tu projekt *open source*, vytvořený jako výukový featurkód ve Visual Studio 2022, s podporou AI magií (ChatGPT, Copilot od Microsoftu a Amazon Q & AWS).  
+Nic z toho není legální náhrada licence Minecraftu, ale je to tvoje legální dílo. 😎
 
 „Když už se má Minecraft spustit, tak ať to aspoň nedá zabrat.“ – každej, kdo to musel dělat ručně
 
@@ -27,13 +31,6 @@ Instalátor sice rozumí launcherům a modpackům, ale nevaří kafe. Zatím.
 Pokud něco spadne – to je v pohodě, je to RCčko. Hlášení bugů vítáno na GitHub issues nebo poštovním holubem.
 
 Minecraft, SKLauncher a jednotlivé mody nejsou moje – vše patří svým původním autorům, já jsem to jen složil jako LEGO. Copyright kódů patří mně.
-
-# 🎮 VanekCraft Instalátor
-
-Vítej u oficiálně-neoficiálního průvodce instalací megamodbalu VanekCraft!  
-Máš tu projekt *open source*, vytvořený jako výukový featurkód ve Visual Studio 2022, s podporou AI magií (ChatGPT, Copilot od Microsoftu a Amazon Q & AWS).  
-Nic z toho není legální náhrada licence Minecraftu, ale je to tvoje legální dílo. 😎
-
 ---
 
 ## 🧠 Co dělá Instalátor
