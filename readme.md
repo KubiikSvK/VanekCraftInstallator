@@ -30,7 +30,7 @@ Instalátor sice rozumí launcherům a modpackům, ale nevaří kafe. Zatím.
 
 Pokud něco spadne – to je v pohodě, je to RCčko. Hlášení bugů vítáno na GitHub issues nebo poštovním holubem.
 
-MC, SKL a jednotlivé mody nejsou moje – vše patří svým původním autorům, já jsem to jen složil jako LEGO, Mimochodem, název lego taky patří svým autorům 😁. Copyright kódů instalátoru patří mně.
+MC, SKL a jednotlivé mody nejsou moje – vše patří svým původním autorům, já jsem to jen složil jako LEGO, Mimochodem, název LEGO taky patří svým autorům 😁. Copyright kódů instalátoru patří mně.
 ---
 
 ### ⚠️ Upozornění k textům v instalátoru
