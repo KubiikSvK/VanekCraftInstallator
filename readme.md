@@ -37,8 +37,8 @@ Minecraft, SKLauncher a jednotlivé mody nejsou moje – vše patří svým pův
 
 - Proleze ti komp a zkontroluje Java 17+ (na fotky tvý/ho ex nešahá).
 - Stáhne launcher:
-  - **Oficiální launcher** – ano, budeš si muset zaplatit.
-  - **SK Launcher** – licence? Cálovat? Ha! Tady běží všechno bez ní.
+  - **Oficiální launcher** – licence potřebná, ale je to fér.
+  - **SK Launcher** – žádné složité byrokracie, ideál pro rychlý start.
 - Nainstaluje Minecraft verzi 1.21.3 a Fabric Loader 0.16.14.
 - Vyčistí dočasný soubory.
 - Vše automaticky připravené, abys klikal a hrál.
